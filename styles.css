@@ -14,7 +14,7 @@ body {
 }
 
 header{
-    width: 640px;
+    width:70%;
     height: 60px;
     font-family: 'Righteous', cursive;
     text-align: center;
@@ -26,8 +26,8 @@ header{
 }
 
 .memory-game {
-  width: 640px;
-  height: 640px;
+  width: 70%;
+  height: 80%;
   padding: 20px;
   background: #02021f;
   border-radius: 10px;
