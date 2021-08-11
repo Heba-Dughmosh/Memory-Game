@@ -14,7 +14,7 @@ body {
 }
 
 header{
-    width:95%;
+    width:99%;
     height: 60px;
     font-family: 'Righteous', cursive;
     text-align: center;
@@ -26,8 +26,8 @@ header{
 }
 
 .memory-game {
-  width: 95%;
-  height: 50%;
+  width: 99%;
+  height: 60%;
   padding: 20px;
   background: #02021f;
   border-radius: 10px;
@@ -39,7 +39,7 @@ header{
 }
 
 .memory-card {
-  width: 22%;
+  width: 20%;
   height: 30%;
   margin: 5px;
   position: relative;
@@ -78,7 +78,21 @@ header{
   backface-visibility: hidden;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:400px)and (max-width:990px) {
+  header{
+    width:99%;
+}
+.memory-game {
+  width: 99%;
+  height: 60%;
+}
+.memory-card {
+  width: 23%;
+  height: 32%;
+}
+}
+
+@media screen and (min-width:990px) {
   header{
     width:60%;
 }
